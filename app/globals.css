@@ -74,7 +74,7 @@
 }
 
 @theme inline {
-    --font-sans: var(--font-sans);
+    --font-sans: var(--font-ibm);
     --font-heading: var(--font-heading);
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
@@ -114,6 +114,27 @@
     --radius-2xl: calc(var(--radius) * 1.8);
     --radius-3xl: calc(var(--radius) * 2.2);
     --radius-4xl: calc(var(--radius) * 2.6);
+
+    --font-heading: var(--font-heading);
+
+    --color-bank-gradient: #0179FE;
+
+    --color-indigo-500: #6172F3;
+    --color-indigo-700: #3538CD;
+
+    --color-gray-25: #FCFCFD;
+    --color-gray-200: #EAECF0;
+    --color-gray-300: #D0D5DD;
+    --color-gray-500: #667085;
+    --color-gray-600: #475467;
+    --color-gray-700: #344054;
+    --color-gray-900: #101828;
+
+    --shadow-chart:
+      0px 1px 3px rgba(16,24,40,0.1);
+
+    --shadow-profile:
+      0px 12px 16px -4px rgba(16,24,40,0.08);
 }
 
 @layer base {
